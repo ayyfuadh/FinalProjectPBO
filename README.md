@@ -71,6 +71,21 @@ public List<Tube> getTubes() {
 
     public void setTubes(List<Tube> tubes) {
         this.tubes = tubes;
+    
+GUI(graphic user interface)
+Nama file = Window
+    
+    public Window(int width, int height, String title, Game game) {
+        JFrame frame = new JFrame();
+        frame.add(game);
+        frame.setTitle(title);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setMaximumSize(new Dimension(width, height));
+        frame.setPreferredSize(new Dimension(width, height));
+        frame.setMinimumSize(new Dimension(width, height));
+        frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
+        frame.setVisible(true);
   
 Link yt : https://youtu.be/HjCeOnaVFvw
 sumber  : https://code-projects.org/flappy-bird-game-in-java-with-source-code/            

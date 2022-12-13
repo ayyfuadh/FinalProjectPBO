@@ -3,8 +3,8 @@ finalprojectPBO
 
 OOP yang di implementasikan pada Final Project
 
-Overriding 
-Nama file = Reallmage
+- Overriding 
+ Nama file = Reallmage
 
     public RealImage(String src) {
         this.src = src;
@@ -19,7 +19,7 @@ Nama file = Reallmage
     
 }
 
-Encapsulation
+- Encapsulation
 Nama file = TubeColumn
 
 public class TubeColumn {
@@ -38,7 +38,7 @@ public class TubeColumn {
         initTubes();
     }
     
-Inheritance
+- Inheritance
 Nama file = bird
     
     public class Bird extends GameObject {
@@ -47,14 +47,14 @@ Nama file = bird
     private Tube[] tube;
     public Bird(int x, int y){
     
-Interface
+- Interface
 Nama file = IImage
     
     public interface IImage {
     public ImageIcon loadImage();
 }
 
-ArrayList
+- ArrayList
 Nama file = TubeColumn
 
      public TubeColumn() {
@@ -62,7 +62,7 @@ Nama file = TubeColumn
         random = new Random();
         initTubes();
 
-Generics
+- Generics
 Nama file = TubeColumn
 
 public List<Tube> getTubes() {
@@ -72,7 +72,7 @@ public List<Tube> getTubes() {
     public void setTubes(List<Tube> tubes) {
         this.tubes = tubes;
     
-GUI(graphic user interface)
+- GUI(graphic user interface)
 Nama file = Window
     
     public Window(int width, int height, String title, Game game) {
@@ -88,4 +88,5 @@ Nama file = Window
         frame.setVisible(true);
   
 Link yt : https://youtu.be/HjCeOnaVFvw
+
 sumber  : https://code-projects.org/flappy-bird-game-in-java-with-source-code/            
